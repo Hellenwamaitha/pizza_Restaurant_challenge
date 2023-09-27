@@ -19,12 +19,37 @@
   - [POST /restaurant_pizzas](#post-restaurant_pizzas)
 - [Contributions](#contributions)
 - [License](#License)
+- [Author info](#author)
 
   
 
 ## Introduction
 
 In this *challenge*, you will build a Flask API for managing Pizza Restaurants, Pizzas, and their associations. This API will provide endpoints to perform various operations related to these entities.
+
+## Technology Used
+
+This challenge was mainly based on
+
+    Python
+    Flask
+    RESTful API
+    SQLALchemy
+    
+## Project Structure
+ 
+ The project contains the following folders and files:
+
+    myenv
+    Server
+    Instance file
+    migration file
+    app.py file
+    debug.py file
+    models.py file
+    seed.py file
+    Lincense 
+    Readme.md file
 
 ## Models
 
@@ -153,7 +178,7 @@ If the RestaurantPizza is not created successfully, return the following JSON da
 {
   "errors": ["validation
   ```
-**Contributions**
+## Contributions
   Contributions  are welcome! If you'd like to contribute, please follow these steps:
 
     Fork the repository.
@@ -164,9 +189,16 @@ If the RestaurantPizza is not created successfully, return the following JSON da
 
 Please ensure your code follows good coding practices and includes proper documentation.
 
-**License**
+## License
 
-This project is licensed under the MIT License. 
-See the LICENSE file for details.
-Hellen Wamaitha 2023.
+This project is licensed under the MIT License. 2023
+     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
+     The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE..
+
+
+## Author's Info
+
+Hellen Wamaitha For questions or contributions email: [hellen.irungu@student.moringaschool.com]
