@@ -25,7 +25,7 @@ from flask_restful import Resource
 class Home(Resource):
     def get(self):
         response_dict = {
-            "message": "Welcome to Miriam's Pizza Restaurant",
+            "message": "Pizzas Restaurant",
         }
 
         return make_response(response_dict, 200)
@@ -113,6 +113,7 @@ class RestaurantPizzasResource(Resource):
             return {"errors": ["validation errors"]}, 400
 
 # Add resources to the API with routes
+api.add_resource(Home, '/')
 api.add_resource(RestaurantsResource, '/restaurants')
 api.add_resource(RestaurantByIdResource, '/restaurants/<int:restaurant_id>')
 api.add_resource(PizzasResource, '/pizzas')
