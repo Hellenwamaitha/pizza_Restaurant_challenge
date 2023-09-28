@@ -18,6 +18,19 @@ parser.add_argument('price', type=int, required=True, help='Price is required')
 parser.add_argument('pizza_id', type=int, required=True, help='Pizza ID is required')
 parser.add_argument('restaurant_id', type=int, required=True, help='Restaurant ID is required')
 
+
+from flask import make_response
+from flask_restful import Resource
+
+class Home(Resource):
+    def get(self):
+        response_dict = {
+            "message": "Welcome to Miriam's Pizza Restaurant",
+        }
+
+        return make_response(response_dict, 200)
+
+
 class RestaurantsResource(Resource):
     def get(self):
         restaurants = Restaurant.query.all()
